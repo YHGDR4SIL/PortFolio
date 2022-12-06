@@ -35,5 +35,6 @@ arrow.addEventListener('click', event => {
 
 
 $(".main").onepage_scroll({
-    pagination: false
+    pagination: false,
+    loop: false
 });
