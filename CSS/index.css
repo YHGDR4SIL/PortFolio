@@ -74,8 +74,40 @@ body{
     bottom: -35vh;
     left: 0vw;
 }
-
-img{
+.category_filtre{
     height: 216px;
     width: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.categroy_img:hover .category_text{
+    visibility: visible;
+}
+.category_img{
+    height: 216px;
+    width: 325px;
+    position: absolute; 
+    filter: grayscale(1);
+    transition-property: filter;
+    transition-duration: 300ms;
 } 
+.category_img:hover{
+    filter: grayscale(0);
+    transition-property: filter;
+    transition-duration: 300ms;
+}
+
+.category_text{
+    font-size: 25px;
+    position: relative;
+    /* left: 70px;
+    top: 100px; */
+    margin: 0;
+    visibility: hidden;
+}
+
+.categroy_text{
+    transition-duration: 300ms;
+    transition-property: visibility;
+}
