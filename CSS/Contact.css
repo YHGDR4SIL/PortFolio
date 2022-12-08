@@ -32,3 +32,64 @@ body{
 #Header a:hover{
     color: #BD58CD;
 }
+
+#Formulaire{
+    width: 70vw;
+    height: 80vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    background-color: #F6F6F6;
+    margin-top: 5vh;
+    border-radius: 5vw;
+    display: block;
+}
+
+#Formulaire h1{
+    text-transform: uppercase;
+    margin-left: 20vw;
+    width: max-content;
+    height: max-content;
+    margin-right: 64vw;
+    padding-top: 5vh;
+}
+
+#content{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+#Form{
+    margin-left: 10%;
+    width: 35%;
+    background-color: #BD58CD;
+    border-radius: 3%;
+}
+#separator{
+    background-color: black;
+    width: 2%;
+    margin-left: 4%;
+}
+#usual_links{
+    background-color: #BD58CD;
+    width: 35%;
+    margin-left: 4%;
+    border-radius: 3%;
+}
+
+.contact_link{
+    display: flex;
+    align-items: center;
+    color: #F6F6F6;
+}
+
+.contact_ico{
+    width: 20%;
+    height: auto;
+}
+
+.contact_txt{
+    font-size: 14px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
