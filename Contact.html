@@ -21,20 +21,49 @@
         <div id="Formulaire">
             <h1>Contactez-nous :</h1>
             <div id="content">
-                <div id="Form"></div>
+                <div id="Form">
+                    <form id="contact_form" action="" method="get">
+                    <div id="Email_form" class="contact_link" style="margin-top: 10%;">
+                        <img class="contact_ico" src="./Images/envelope.png">
+                        <p class="contact_txt"><input type="email" name="email_input" id="email_input" placeholder="Email@Email.com"required></p>
+                    </div>
+                    <div id="Message_form" style="margin-top:15%;"class="contact_link">
+                        <!-- <a href="https://www.flaticon.com/fr/icones-gratuites/boite-de-discussion" title="boîte de discussion icônes">Boîte de discussion icônes créées par Freepik - Flaticon</a> -->
+                        <img class="contact_ico" src="./Images/dialogue.png">
+                        <p class="contact_txt"><textarea required></textarea></p>
+                    </div>
+                    <!-- <div id="captcha_form" class="contact_link">
+                        <img class="contact_ico" src="">
+                        <p class="contact_ico"><button class="g-recaptcha" 
+                            data-sitekey="reCAPTCHA_site_key" 
+                            data-callback='onSubmit' 
+                            data-action='submit'>Submit</button></p>
+                    </div> -->
+                    <div id="submit_form" class="contact_link">
+                        <img class="contact_ico" src="">
+                        <p class="contact_ico"><input style="background-color: white;border: none;" type="submit" name="submit" id="submit" value="Envoyer le message"></p>
+                    </div>
+                    </form>                
+                </div>
                 <div id="separator"></div>
                 <div id="usual_links">
-                    <div id="email" class="contact_link">
+                    <div id="email" class="contact_link" style="margin-top: 10%;">
                     <!-- <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by kmg design - Flaticon</a> -->
                         <img class="contact_ico" src="./Images/envelope.png">
-                        <p class="contact_txt">Truenoxx@gefédesfotos.argent</p>
+                        <p class="contact_txt"><a href="mailto:truenoxx@gmail.com?subject = Demande Photographie&body = Message" style="text-decoration: none;color: inherit;">Truenoxx@gefédesfotos.argent</a></p>
                     </div>
-                    <div id="discord" class="contact_link">
+                    <div id="discord" class="contact_link" style="margin-top: 20%;">
                         <img class="contact_ico" src="./Images/Discord_logo.png">
-                        <p class="contact_txt">discord.gg/c2lame</p>
+                        <p class="contact_txt"><a href="#" style="text-decoration: none;color: inherit;">discord.gg/c2lame</a></p>
                     </div>
                 </div>
             </div>
         </div>
+        <script>
+            function onSubmit(token) {
+              document.getElementById("demo-form").submit();
+            }
+          </script>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
     </body>
 </html>
