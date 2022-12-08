@@ -1,0 +1,34 @@
+@font-face{
+    font-family: Gotham;
+    src: url('../Fonts/Gotham-Bold.otf');
+}
+html{
+    margin: 0;
+    font-family: Gotham;
+}
+body{
+    background-color: #151515;
+}
+
+#Header{
+    text-decoration: none;
+    width: 100vw;
+    height: 40px;
+    font-size: 40px;
+    display: inline;
+}
+#Header p{
+    text-transform: uppercase;
+    margin:0;
+    display: inline;
+}
+#Header p:hover{
+    color: #BD58CD;
+}
+#Header a{
+    text-decoration: none;
+    color: #F6F6F6;
+}
+#Header a:hover{
+    color: #BD58CD;
+}
