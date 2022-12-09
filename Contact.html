@@ -14,7 +14,7 @@
     </head>
     <body>
         <div id="Header">
-            <p style="margin-top:1vh;"><img src="./Images/Logo deploy.png" style="width: 40px;height: 40px;"></p>
+            <p style="margin-top:1vh;"><img src="./Images/Logo deploy.png" style="width: 40px;height: 40px;filter: invert(100%);"></p>
             <p style="margin-left: 40vw;"><a href="./index.html">PortFolio</a></p>
             <p style="margin-left: 25vw;"><a href="./Contact.html">Contact</a></p>
         </div>
@@ -22,15 +22,15 @@
             <h1>Contactez-nous :</h1>
             <div id="content">
                 <div id="Form">
-                    <form id="contact_form" action="" method="get">
+                    <form id="contact_form" action="https://formspree.io/f/mwkzgweq" method="post">
                     <div id="Email_form" class="contact_link" style="margin-top: 10%;">
                         <img class="contact_ico" src="./Images/envelope.png">
-                        <p class="contact_txt"><input type="email" name="email_input" id="email_input" placeholder="Email@Email.com"required></p>
+                        <p class="contact_txt"><input type="email" name="email" id="email_input" placeholder="Email@Email.com"required></p>
                     </div>
                     <div id="Message_form" style="margin-top:15%;"class="contact_link">
                         <!-- <a href="https://www.flaticon.com/fr/icones-gratuites/boite-de-discussion" title="boîte de discussion icônes">Boîte de discussion icônes créées par Freepik - Flaticon</a> -->
                         <img class="contact_ico" src="./Images/dialogue.png">
-                        <p class="contact_txt"><textarea rows="10" cols="25" required></textarea></p>
+                        <p class="contact_txt"><textarea rows="10" cols="25" name="message" required></textarea></p>
                     </div>
                     <!-- <div id="captcha_form" class="contact_link">
                         <img class="contact_ico" src="">
